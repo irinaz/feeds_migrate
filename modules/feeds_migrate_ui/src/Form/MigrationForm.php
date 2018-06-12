@@ -228,7 +228,7 @@ class MigrationForm extends EntityForm {
 
     $form['data'] = [
       '#type' => 'fieldset',
-      '#title' => $this->t('Start with some data'),
+      '#title' => $this->t('Start with some data structure or skip this step'),
       '#tree' => TRUE,
     ];
 
